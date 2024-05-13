@@ -28,8 +28,6 @@ void create()
     int a;
     int b;
 
-    ShellExecute(0, 0, L"file:///C:/Users/pomoc/OneDrive/Dokumente/PythonCode/hi.html", 0, 0, SW_SHOW);
-
     cin.get();
     cout << "how many parts do you want change: ";
     cin >> botnummer;
@@ -86,7 +84,7 @@ int main()
                 }
                 else 
                 {
-                     cout << "Ungültige Eingabe!" << endl;
+                     cout << "UngÃ¼ltige Eingabe!" << endl;
                 }
                     
             }
